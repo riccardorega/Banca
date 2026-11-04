@@ -1,0 +1,89 @@
+services:
+  mssql-server:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: Developer
+      MSSQL_SA_PASSWORD: p4ssw0rD
+    ports:
+      - 2433:1433
+    volumes:
+      - "mssql-server:/var/opt/mssql"
+
+  adminer:
+    image: adminer:4.8.1
+    ports:
+      - 2431:8080
+    environment:
+      TZ: Europe/Rome
+      ADMINER_DEFAULT_SERVER: mssql-server
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.7.0
+    container_name: zookeeper
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.7.0
+    container_name: kafka
+    depends_on:
+      - zookeeper
+    ports:
+      - '9092:9092'
+    environment:
+      KAFKA_BROKER_ID: 1
+
+      # Connessione a Zookeeper
+      KAFKA_ZOOKEEPER_CONNECT: 'host.docker.internal:2181'
+
+      # Listener interni ed esterni
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://host.docker.internal:9092
+      KAFKA_LISTENERS: PLAINTEXT://0.0.0.0:29092,PLAINTEXT_HOST://0.0.0.0:9092
+
+      # Partizioni minime di replication (per ambiente singolo)
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+
+      # Per sviluppare in locale senza ACL
+      KAFKA_ALLOW_EVERYONE_IF_NO_ACL_FOUND: "true"
+
+  unipr-anagrafiche:
+    image: ghcr.io/toooomm/unipr-anagrafiche:latest
+    pull_policy: always
+    depends_on:
+      - mssql-server
+    environment:
+      TZ: Europe/Rome
+    volumes:
+      - "./config/unipr-anagrafiche-appsettings.json:/app/appsettings.json:ro"
+
+  unipr-imu:
+    image: ghcr.io/toooomm/unipr-imu:latest
+    pull_policy: always
+    depends_on:
+      - mssql-server
+      - kafka
+    environment:
+      TZ: Europe/Rome
+    volumes:
+      - "./config/unipr-imu-appsettings.json:/app/appsettings.json:ro"
+
+  unipr-pagamenti:
+    image: ghcr.io/toooomm/unipr-pagamenti:latest
+    pull_policy: always
+    depends_on:
+      - mssql-server
+      - kafka
+    environment:
+      TZ: Europe/Rome
+    volumes:
+      - "./config/unipr-pagamenti-appsettings.json:/app/appsettings.json:ro"
+
+volumes:
+  mssql-server:
