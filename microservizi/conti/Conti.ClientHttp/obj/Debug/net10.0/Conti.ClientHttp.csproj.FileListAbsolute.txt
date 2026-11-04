@@ -1,0 +1,16 @@
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\bin\Debug\net10.0\Conti.ClientHttp.deps.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\bin\Debug\net10.0\Conti.ClientHttp.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\bin\Debug\net10.0\Conti.ClientHttp.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\bin\Debug\net10.0\Conti.Shared.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\bin\Debug\net10.0\Conti.Shared.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.csproj.AssemblyReference.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.AssemblyInfoInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.AssemblyInfo.cs
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.csproj.CoreCompileInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.sourcelink.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.Cl.39FD76CA.Up2Date
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\refint\Conti.ClientHttp.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\Conti.ClientHttp.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.ClientHttp\obj\Debug\net10.0\ref\Conti.ClientHttp.dll

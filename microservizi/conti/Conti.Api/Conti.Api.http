@@ -1,0 +1,6 @@
+@Conti.Api_HostAddress = http://localhost:5118
+
+GET {{Conti.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

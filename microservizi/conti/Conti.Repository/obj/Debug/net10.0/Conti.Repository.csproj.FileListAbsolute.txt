@@ -1,0 +1,16 @@
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\bin\Debug\net10.0\Conti.Repository.deps.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\bin\Debug\net10.0\Conti.Repository.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\bin\Debug\net10.0\Conti.Repository.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\bin\Debug\net10.0\Conti.Shared.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\bin\Debug\net10.0\Conti.Shared.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.csproj.AssemblyReference.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.AssemblyInfoInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.AssemblyInfo.cs
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.csproj.CoreCompileInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.sourcelink.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Re.9DB44602.Up2Date
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\refint\Conti.Repository.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\Conti.Repository.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Repository\obj\Debug\net10.0\ref\Conti.Repository.dll

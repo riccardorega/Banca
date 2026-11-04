@@ -1,0 +1,22 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=mssql-server,1433;Database=BancaTransazioniDb;User Id=sa;TrustServerCertificate=True"
+  },
+  "Services": {
+    "ContiApiUrl": "http://banca-conti:8080"
+  },
+  "Kafka": {
+    "BootstrapServers": "kafka:29092",
+    "GroupId": "transazioni-group"
+  },
+  "AntiFraud": {
+    "AmountThreshold": 5000.0
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\bin\Debug\net10.0\Conti.Shared.deps.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\bin\Debug\net10.0\Conti.Shared.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\bin\Debug\net10.0\Conti.Shared.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.AssemblyInfoInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.AssemblyInfo.cs
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.csproj.CoreCompileInputs.cache
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.sourcelink.json
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\refint\Conti.Shared.dll
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\Conti.Shared.pdb
+C:\Users\regal_u8l2znq\OneDrive\Desktop\Banca\microservizi\conti\Conti.Shared\obj\Debug\net10.0\ref\Conti.Shared.dll

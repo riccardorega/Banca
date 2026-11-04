@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Conti.Business/1.0.0": {
+        "dependencies": {
+          "Conti.Repository": "1.0.0",
+          "Conti.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Conti.Business.dll": {}
+        }
+      },
+      "Conti.Repository/1.0.0": {
+        "dependencies": {
+          "Conti.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Conti.Repository.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Conti.Shared/1.0.0": {
+        "runtime": {
+          "Conti.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Conti.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Conti.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Conti.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

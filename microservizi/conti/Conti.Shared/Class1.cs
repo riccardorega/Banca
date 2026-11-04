@@ -1,0 +1,6 @@
+﻿namespace Conti.Shared;
+
+public class Class1
+{
+
+}

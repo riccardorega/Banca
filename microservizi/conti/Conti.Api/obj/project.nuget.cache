@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Scyq5Iq9Xds=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\regal_u8l2znq\\OneDrive\\Desktop\\Banca\\microservizi\\conti\\Conti.Api\\Conti.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\regal_u8l2znq\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\regal_u8l2znq\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,16 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=mssql-server,1433;Database=BancaAntifrodeDb;User Id=sa;TrustServerCertificate=True"
+  },
+  "Kafka": {
+    "BootstrapServers": "kafka:29092",
+    "GroupId": "antifrode-group"
+  }
+}

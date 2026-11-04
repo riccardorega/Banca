@@ -1,0 +1,11 @@
+**/.bin/
+**/bin/
+**/obj/
+.git/
+.gitignore
+.gemini/
+GEMINI.md
+Dockerfile
+.dockerignore
+*.sln.DotSettings
+*.user
